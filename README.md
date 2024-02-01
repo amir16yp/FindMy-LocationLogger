@@ -14,7 +14,7 @@ This python script runs on a jailbroken iphone, and essentially reads the cache 
 - copy over the find-my-thing directory into a directory easily accessible by NewTerm using the SCP client. Keep in mind that most default ssh creds on jailbroken iphones are the user `mobile` and the password `alpine`
 ## Usage
 - open NewTerm and cd into find-my-thing directory 
-- run python3 main.py
+- run `python3 main.py`
 - let NewTerm run this process in thhe background, open the Find My app
 - keep the Find My app open as long as you want to log the AirTag locations
 - Whenever you want to extract the location history data, use SCP to extract the files in the find-my-thing/log/ directory.
