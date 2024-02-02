@@ -19,5 +19,6 @@ This python script runs on a jailbroken iphone, and essentially reads the cache 
 - keep the Find My app open as long as you want to log the AirTag locations
 - Whenever you want to extract the location history data, use SCP to extract the files in the find-my-thing/log/ directory.
 - use the python script findmy2kml.py on your host machine to convert them into KML. the syntax is `python3 findmy2kml.py (csv file path)`
+- alternatively, use [this website](https://findmycachereader.html) to directly import the CSV file into an openstreetmap map. It works on the client side only, your data doesn't go anywhere.
 - import your KML files into google maps or google earth.
 - (Optional) change the Auto Lock setting in your iphone to "Never" and keep your Find My app open 24/7
